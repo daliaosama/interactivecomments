@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url('assets/Rubik/static/Rubik-Regular.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Rubik';
+  src: url('assets/Rubik/static/Rubik-Bold.ttf');
+font-weight: bold;
+}
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Rubik';
+}
+#root{
+  height:auto;
+  width: 100%;
+  background-color: hsl(228, 33%, 97%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+}
+@media only screen and (max-width: 600px) and (min-width:344px){
+  html,body{
+    height: auto;
+  }
+  
+}

@@ -1,0 +1,148 @@
+.postitem{
+   display: flex;
+   background-color: hsl(0, 0%, 100%);
+   height: 9rem;
+   column-gap: 1rem;
+   padding: 1rem ;
+   box-sizing: border-box;
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   width: 100%;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   height: 100%;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    column-gap:10px;
+    height:2rem
+}
+#person{
+    width:2rem;
+    height: 2rem;
+}
+#img{
+    width:3rem;
+    height: 3rem;
+}
+#reply{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    column-gap: 10px;
+
+}
+#rep{
+    height: 15px;
+}
+.re{
+    cursor: pointer;
+    font-size: 14px;
+    color:hsl(238, 40%, 52%);
+    background-color:hsl(0, 0%, 100%);
+    border-style:none;
+    font-weight: bold;
+}
+#dele{
+    
+    
+    font-size: 14px;
+}
+p{
+    font-size: 15px;
+    width: 35rem;
+}
+#time{
+    color:hsl(211, 10%, 45%);
+    font-size: 14px;
+}
+.btn{
+    color:hsl(358, 79%, 66%);
+    cursor:pointer;
+    background-color:hsl(0, 0%, 100%);
+    border-style:none;
+    font-weight:bold
+}
+.inputreply{display: flex;
+    background-color: hsl(0, 0%, 100%);
+    height: 9rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+    width: 100%;
+    column-gap: 1rem;}
+    .inputreply textarea{ width: 80%; resize: none; cursor: pointer; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;}
+    .reply{
+        background-color:hsl(238, 40%, 52%);
+        color:hsl(0, 0%, 100%);
+        height: 2.5rem;
+        width: 6rem;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+         border-style:none;
+         cursor: pointer;
+    }
+    
+    
+@media only screen and (max-width:600px) and (min-width:344px){
+    .postitem{
+        flex-direction: column-reverse;
+        height: 13.5rem;
+      
+    }
+    .person{
+        position: relative;
+    }
+    .post{
+        width: 100%;
+    }
+    #reply{
+        position: absolute;
+        top:9.5rem;
+        left:10rem; 
+    }
+    p{
+        width:100%;
+       font-size: 15px;
+       height: 5.5rem;
+    }
+    .btn,.re{
+        width: 4.4rem;
+    }
+    .inputreply{
+        position: relative;
+        height: 12rem;
+    }
+    .inputreply textarea{
+        height:6rem;
+        width: 100%;
+    }
+    #img{
+        position: absolute;
+        top:8rem
+    }
+    .reply{
+        position: absolute;
+        top:8rem;
+        left:14rem
+    }
+}

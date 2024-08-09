@@ -1,0 +1,54 @@
+#input{
+    display: flex;
+   background-color: hsl(0, 0%, 100%);
+   height: 9rem;
+   padding: 1rem;
+   box-sizing: border-box;
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   width: 100%;
+   column-gap: 1rem;
+}
+#jul{
+    height: 3em;
+}
+#input textarea{ width: 80%; resize: none; cursor: pointer; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ;
+}
+#send{
+    background-color:hsl(238, 40%, 52%);
+    color:hsl(0, 0%, 100%);
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+     border-style:none
+}
+::placeholder{
+    font-size: 16px;
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) and (min-width:344px) {
+    #input{
+        position: relative;
+        height: 12rem;
+    }
+    #input textarea{
+        height:6rem;
+        width: 100%;
+    }
+    #jul{
+        position: absolute;
+        top:8rem
+    }
+    #send{
+        position: absolute;
+        top:8rem;
+        left:14rem
+    }
+}

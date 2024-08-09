@@ -1,0 +1,43 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "name": "amyrobson",
+        "image": "./src/assets/avatars/image-amyrobson.png",
+        "post": "Impressive!Though it seems the drag feature could be improved.But overall it looks incredibile.You've nailed the design and the responsiveness at various breakpoints works really well.",
+        "time": "1 month ago",
+        "comments": []
+      },
+      {
+        "id": 2,
+        "name": "maxblaugn",
+        "image": "maxblaugn",
+        "post": "Woah,your project looks awesome! How long have you been coding for?I'm still new,but think I want to dive into React as well so,Perhabs you can give me an insight on where I can learn React? Thanks!",
+        "time": "2 weeks ago",
+        "comments": [
+          {
+            "name": "ramsesmiron",
+            "image": "ramsesmiron",
+            "comment":
+              "@maxblaugn if you're still new.I'd recommend focusing on the fundamentals of HTML,CSS,and JS before considering React.It's very tempting to jump ahead but lay a solid foundation first.",
+            "time": "1 week ago"
+          },
+          {
+            "name": "juliusomo",
+            "image": "juliusomo",
+            "comment":
+              "I couldn't agree more with this.Everything moves so fast and it alwaysseems like everyone konws the newest library/framework.But the fundamentals are what stay constant.",
+            "time": "1 day ago"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "juliusomo",
+        "image": "juliusomo",
+        "post": "Great work!I haven't got much to add beyound what's already been said,but i just wanted to say congrats!You've done an execellent job on this!",
+        "time": "1 day ago",
+        "comments": []
+      }
+    ]
+  }

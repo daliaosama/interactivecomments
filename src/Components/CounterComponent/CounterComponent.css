@@ -1,0 +1,39 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 6rem;
+  width: 2rem;
+  background-color: hsl(228, 33%, 97%);
+  align-items: center;
+  padding-top: 10px;
+  row-gap: 10px;
+  color: hsl(238, 40%, 52%);
+  box-sizing: border-box;
+}
+.btnc{
+  border-style: none;
+  cursor: pointer;
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+  background-color: hsl(228, 33%, 97%);
+}
+#count{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) and (min-width:344px){
+  .counter {
+    flex-direction: row;
+    width: 5rem;
+    height: 2rem;
+   padding:10px;
+   column-gap: 5px;
+  
+  }
+}
